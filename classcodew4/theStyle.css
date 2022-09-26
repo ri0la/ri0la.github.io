@@ -1,0 +1,10 @@
+body {
+  background-color: green;
+} 
+
+img {
+  background-color:pink;
+  width: 30w;
+  border: solid black 10px;
+  padding: 40 px;
+}
