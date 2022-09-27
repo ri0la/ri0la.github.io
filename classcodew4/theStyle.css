@@ -4,15 +4,26 @@ body {
 
 img {
   background-color:pink;
-  width: 30w;
+  width: 30vw;
   border: solid black 10px;
-  padding: 40 px;
+  padding: 40px;
 }
 
 p {
-  background-color: aqua;
+  background-color: rgb(211, 216, 148);
   font-size: 36px;
   padding: 4w;
-  border: dotted pink 7px;
-  margin 4w;
+  border: dotted rgb(255, 164, 179) 12px;
+  margin: 4w;
+}
+
+div {
+  text-align: center;
+}
+
+.potato {
+  border: solid 20px blue;
+  font-family: cursive;
+  text-align: center;
+
 }
