@@ -1,0 +1,127 @@
+body {
+  background-color: rgb(220, 204, 215);
+} 
+
+/*img {
+  background-color:pink;
+  width: 30vw;
+  border: solid black 10px;
+  padding: 40px;
+} */
+
+p {
+  /* background-color: rgb(231, 214, 209); */
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 36px;
+  padding: 4w;
+  border: inset;
+  margin: 4w;
+  line-height: 3;
+}
+
+div {
+  text-align: center;
+}
+
+.potato {
+  border: solid 20px blue;
+  font-family: cursive;
+  text-align: center;
+
+}
+.radiosilence{
+  width: 33vw ;
+  height: 50vh;
+}
+.radiosilence:hover {
+  background-color: rgb(78, 10, 28);
+}
+
+.myth {
+  width: 33vw ;
+  height: 50vh;
+}
+.myth:hover {
+  background-color: lightblue;
+}
+
+.air {
+  width: 32vw ;
+  height: 50vh;
+}
+.air:hover {
+  background-color: slateblue;
+}
+
+.flowering {
+  width: 33vw ;
+  height: 50vh;
+}
+.flowering:hover {
+  background-color: darkmagenta;
+}
+
+.man {
+  width: 33vw ;
+  height: 50vh;
+}
+.man:hover {
+  background-color: darkorange;
+}
+
+.skull {
+  width: 32vw ;
+  height: 50vh;
+}
+.skull:hover {
+  background-color: rgb(179, 0, 0);
+}
+
+.know {
+  width: 33vw ;
+  height: 50vh;
+}
+.know:hover {
+  background-color: rgb(240, 147, 187);
+}
+
+.celestial {
+  width: 33vw ;
+  height: 50vh;
+}
+.celestial:hover {
+  background-color: rgb(162, 251, 230);
+}
+
+.absence {
+  width: 32vw ;
+  height: 50vh;
+}
+.absence:hover {
+ /* background-color: #c9d4debf; */
+ color: rgba(226, 226, 226, 0.8);
+}
+
+.shampoo {
+  width: 33vw ;
+  height: 50vh;
+}
+.shampoo:hover {
+  background-color: rgba(97, 14, 161, 0.757);
+}
+
+.loosechange {
+  width: 33vw ;
+  height: 50vh;
+}
+.loosechange:hover {
+  background-color: rgb(160, 78, 0);
+}
+
+.tallgrass {
+  width: 32vw ;
+  height: 50vh;
+}
+.tallgrass:hover {
+  background-color:rgb(101, 158, 2)
+}
