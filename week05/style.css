@@ -41,3 +41,23 @@ audio::-webkit-media-controls-play-button:hover {
   height: 400px;
   overflow: scroll;
 }
+
+.image {
+  font-family: Arial;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.overlap {
+  transform: translateX(-50%);
+  max-width: 25rem;
+  padding: 1rem;
+}
+
+.overlap2 {
+  transform: translateX(-50%);
+  max-width: 25rem;
+  padding: 1rem;
+}
