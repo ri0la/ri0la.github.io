@@ -1,4 +1,4 @@
-
+/* Riola */
 audio::-webkit-media-controls-panel {
   background-color: rgb(187, 187, 163);
   
@@ -30,6 +30,7 @@ audio::-webkit-media-controls-play-button:hover {
   color: rgb(193, 0, 0); 
 }
 
+/* Kiara */
 .pic-container {
   width: 1350px;
   margin: 0 auto;
@@ -62,6 +63,13 @@ audio::-webkit-media-controls-play-button:hover {
   padding: 1rem;
 }
 
+.world {
+font-weight:bold;
+font-size: larger;
+
+}
+
+/* Lizzie */
 .column {
   display: flex;
 }
@@ -90,4 +98,26 @@ audio::-webkit-media-controls-play-button:hover {
 .surreal:hover {
   opacity: 0;
   transition: opacity 2.85s;
+}
+
+/* When does a human become an object? */
+details {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: .5em .5em 0;
+}
+
+summary {
+  font-weight: bold;
+  margin: -.5em -.5em 0;
+  padding: .5em;
+}
+
+details[open] {
+  padding: .5em;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: .5em;
 }
