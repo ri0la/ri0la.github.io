@@ -1,1 +1,30 @@
 
+audio::-webkit-media-controls-panel {
+  background-color: rgb(187, 187, 163);
+  
+}
+audio::-webkit-media-controls-play-button {
+  background-color: rgb(214, 214, 175);
+  border-radius: 50%;
+}
+audio::-webkit-media-controls-play-button:hover {
+  background-color: rgb(255, 66, 192);
+}
+.threeballerinas {
+  width:400px;
+  height:400px;
+}
+
+.threeballerinas:hover  { opacity: 0;
+  transition: opacity 4.5s;
+}
+
+.fear {
+  font-family:cursive;
+  text-align: center;
+}
+
+.melancholy {
+  font-family:cursive;
+  text-align: center;
+}
