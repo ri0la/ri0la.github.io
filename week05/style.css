@@ -27,4 +27,17 @@ audio::-webkit-media-controls-play-button:hover {
 .melancholy {
   font-family:cursive;
   text-align: center;
+  color: rgb(193, 0, 0);
+}
+
+.pic-container {
+  width: 1350px;
+  margin: 0 auto;
+  white-space: nowrap;
+}
+
+.pic-row {
+  width: 1350px;
+  height: 400px;
+  overflow: auto;
 }
