@@ -27,7 +27,7 @@ audio::-webkit-media-controls-play-button:hover {
 .melancholy {
   font-family:cursive;
   text-align: center;
-  color: rgb(193, 0, 0);
+  color: rgb(193, 0, 0); 
 }
 
 .pic-container {
@@ -60,4 +60,33 @@ audio::-webkit-media-controls-play-button:hover {
   transform: translateX(-50%);
   max-width: 25rem;
   padding: 1rem;
+}
+
+.column {
+  display: flex;
+}
+
+.scrolling {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.container1 {
+  position: relative;
+}
+
+.card {
+  flex: 0 0 auto;
+}
+
+.surreal {
+  font-family: fantasy;
+  font-size: large;
+  text-align: center;
+}
+
+.surreal:hover {
+  opacity: 0;
+  transition: opacity 2.85s;
 }
