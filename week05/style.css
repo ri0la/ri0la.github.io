@@ -107,6 +107,9 @@ details {
   padding: .5em .5em 0;
 }
 
+.eye {
+  font-weight: bold;
+}
 summary {
   font-weight: bold;
   margin: -.5em -.5em 0;
