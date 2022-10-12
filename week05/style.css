@@ -39,5 +39,5 @@ audio::-webkit-media-controls-play-button:hover {
 .pic-row {
   width: 1350px;
   height: 400px;
-  overflow: auto;
+  overflow: scroll;
 }
