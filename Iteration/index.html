@@ -1,50 +1,23 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
-<body background="clouds copy.jpg"  height: 100%;>
 <head>
-  
-  <meta charset="utf-8">
   <title>ri0la.com</title>
-  <style>
-    #container {
-      margin: 0px auto;
-      width: 500px;
-      height: 375px;
-      border: 10px #333 solid;
-    }
-    #videoElement {
-      width: 500px;
-      height: 375px;
-      background-color: #666;
-    }
-    </style>
-    </head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel = "stylesheet" href="theStyle.css"/>
+  <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Content-Style-Type" content="text/css">
-  <title>My First Website</title>
   <meta name="Generator" content="Cocoa HTML Writer">
   <meta name="CocoaVersion" content="2022.5">
-  <style type="text/css">
-  </style>
- 
+
 </head>
-<body>
 
-  <h1> www.riola.com </h1>
-
-</body>
-
-</header>
-
-<body>
-  
+<body background="clouds copy.jpg" class="tiledBackground"; > 
+  <!-- how to flip video?-->
   <div id="container">
     <video autoplay="true" id="videoElement">
-    
     </video>
   </div>
-
 
   <script>
 var video = document.querySelector("#videoElement");
@@ -59,34 +32,26 @@ if (navigator.mediaDevices.getUserMedia) {
     });
 }
   </script>  
- 
-  <h2> welcome to my webpage ! isn't it cool?</h2>
-  <a href="https://editor.p5js.org/ri0la/full/I4jw-QADk" target=_"blank">hello </a>
-  <!-- <h3>An HTML Playground</h3>
- 
-  <h5>An HTML Playground</h5>
-  <h6>An HTML Playground</h6> -->
-  (this is my very first website and I'm <b>extremely excited!)</b> 
-  <!-- <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. -->
+
+  <p>
+   notes: 10/14/22 10:45 PM <br>
+  i think it would be good if the video feature was something you could toggle on and off on the website,
+  so the google pop-up about showing your camera isn't immediate... as it is right now it's a little off putting.
   </p>
-  <br/>
-  <!-- <b>Pellentesque pulvinar pellentesque habitant morbi tristique senectus. Adipiscing at in tellus integer feugiat scelerisque varius. Est pellentesque elit ullamcorper dignissim cras. Elementum integer enim neque volutpat. Tristique senectus et netus et malesuada fames ac turpis. Auctor eu augue ut lectus arcu. Cras fermentum odio eu feugiat pretium nibh. Orci sagittis eu volutpat odio. Blandit cursus risus at ultrices mi tempus imperdiet nulla. Nam aliquam sem et tortor consequat id porta. Lacus luctus accumsan tortor posuere. Aliquet nibh praesent tristique magna. Eget velit aliquet sagittis id consectetur purus.</b> -->
-  <br/>
-  <h4>what i've been listening to !</h4>
-  <iframe src="https://open.spotify.com/embed/track/22nI6u1BCQmXY8WpFSFbxJ?utm_source=generator" width="70%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-  <iframe src="https://open.spotify.com/embed/track/7oQcqeb9FTPAkW6uVtHWeZ?utm_source=generator" width="70%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-  <iframe src="https://open.spotify.com/embed/track/1Kjw0LwdniCWran4PxJqPQ?utm_source=generator" width="70%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-  <!--- this is the camera p5*js sketch.... it doesn't work!!! ahhh!!!-->
  
-  <iframe src="https://editor.p5js.org/ri0la/full/EVe-MxgwO" width="500" height="550"></iframe>
-  <script async src=https://cdn.JsDelivr.net/npm/p5></script>
-  <script defer src=sketch.js></script>
-<br/>
-<iframe src="https://editor.p5js.org/ri0la/full/I4jw-QADk" width="500" height="550" frameborder="10"></iframe>
-</body>
+  <div class="pee">
+    random: 10/14/22 11:00 PM <br>
+    i watched a documentary about Helvetica for class the other day and i cant stop thinking about this one guy
+    who was super excited about the use of Helvetica in a coca cola ad. he was so stoked.
+  </div>
+  <br>
+  <label for="thoughts" class="thoughts_label">Tell me what you think of my website !</label>
+
+  <textarea id="suggestion_box" name="thoughts" rows="6" cols="77"> </textarea>
+  <!-- cloudy sky by the cardigans, red red red by fiona apple, and kerosene by yves tumor-->
+  <!-- <script async src=https://cdn.JsDelivr.net/npm/p5></script>
+  <script defer src=sketch.js></script> -->
+
 </body>
 </html>
 

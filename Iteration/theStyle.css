@@ -1,0 +1,43 @@
+.container {
+  margin: 0px auto;
+  width: 300px;
+  height: 305px;
+  border: 5px rgb(136, 211, 243) inset;
+  align-self: flex-start;
+}
+
+.videoElement {
+ /* width: 300px;
+  height: 300px;
+  background-color: rgb(141, 205, 251);
+  align-self: flex-start;
+  */
+}
+
+.tiledBackground {
+  background-size: 100vw ;
+}
+
+p {
+  color: crimson;
+  background-color: rgba(0, 0, 255, 0.315);
+  width: 46vw;
+  text-align:left;
+}
+
+.pee {
+  color: crimson;
+  background-color: rgba(0, 0, 255, 0.315);
+  width: 46vw;
+}
+
+label {
+  display:block;
+  font-family:Helvetica, sans-serif;
+}
+
+.thoughts_label {
+  color: crimson;
+  background-color: rgba(0, 0, 255, 0.315);
+  width: 46vw;
+}
