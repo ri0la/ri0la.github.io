@@ -1,0 +1,35 @@
+.physics {
+  width: 60vw;
+  height: 60vw;
+}
+
+.physics:hover {
+  animation-name: slide;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+
+.school {
+  animation-name: rotate;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
