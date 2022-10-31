@@ -1,0 +1,106 @@
+.spheres {
+color: blue;
+font-size: xx-large;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.spheres:hover {
+  color: rgb(246, 255, 252);
+  text-shadow:1px 1px 10px rgb(248, 200, 200), 1px 1px 10px rgba(255, 21, 193, 0.788);
+}
+
+.SUGARCANE {
+color: blue;
+font-size: xx-large;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.SUGARCANE:hover {
+  font-size:xx-large;
+  font-family:Arial, Helvetica, sans-serif;
+  color: rgb(255, 166, 236);
+  text-shadow:1px 1px 10px rgb(111, 207, 193), 1px 1px 10px rgb(188, 255, 192);
+}
+
+.plaza {
+  color: blue;
+  font-size: xx-large;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.plaza:hover {
+  color: rgb(252, 255, 166);
+  text-shadow:1px 1px 10px rgb(207, 216, 32), 1px 1px 10px rgba(216, 255, 21, 0.788);
+}
+
+.someone {
+  color: blue;
+  font-size: xx-large;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.someone:hover {
+  color:rgb(199, 226, 238);
+  text-shadow:1px 1px 10px rgb(255, 240, 219), 1px 1px 10px rgb(244, 233, 189);
+}
+.jellyfish {
+  color: blue;
+  font-size: xx-large;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.jellyfish:hover {
+  color:rgb(99, 0, 149);
+  text-shadow:1px 1px 10px rgb(187, 148, 255), 1px 1px 10px rgb(237, 134, 239);
+}
+.water {
+  color: blue;
+  font-size: xx-large;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.water:hover {
+  color:#fff;
+  text-shadow:1px 1px 10px rgb(209, 188, 255), 1px 1px 10px rgb(238, 188, 255);
+}
+
+.angels {
+  color: blue;
+  font-size: xx-large;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.angels:hover {
+  color:rgb(232, 253, 255);
+  text-shadow:1px 1px 10px rgb(255, 154, 208), 1px 1px 10px rgb(255, 188, 240);
+}
+
+.bible {
+  display: none
+}
+
+span:hover + .bible {
+  display: block;
+}
+
+.row {
+display: flex;
+justify-content: center;
+}
+
+.column {
+  flex:30%;
+  justify-content: flex-start;
+  padding: 10px
+}
+
+.img_column {
+  padding: 5px
+}
+
+.Heartscape {
+color: rgb(255, 0, 0);
+font-size: xx-large;
+font-family:Arial, Helvetica, sans-serif;
+}
+

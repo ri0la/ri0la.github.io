@@ -1,0 +1,78 @@
+#bodey {
+  background: linear-gradient(to bottom, #e9cefda0, #9ad4fb);
+}
+
+.water {
+  width: 20vw;
+  margin: auto;
+  display: block;
+}
+
+.yogurt {
+  color: rgb(0, 228, 137);
+  font-size: xx-large;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align:center;
+}
+
+.yogurt:hover {
+  color:rgb(152, 255, 214);
+  text-shadow:1px 1px 10px rgb(124, 196, 255), 1px 1px 10px #6cfffacf;
+  text-align:center;
+}
+.froyo {
+  color: rgb(98, 218, 255);
+  font-size: xx-large;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align:center;
+}
+
+.froyo:hover {
+  color:rgb(73, 225, 255);
+  text-shadow:1px 1px 10px rgb(160, 255, 204), 1px 1px 10px rgba(189, 255, 91, 0.811);
+  text-align:center;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: rgb(153, 208, 234);
+  
+}
+audio::-webkit-media-controls-play-button {
+  background-color: rgb(184, 230, 227);
+  border-radius: 50%;
+}
+audio::-webkit-media-controls-play-button:hover {
+  background-color: rgb(165, 252, 206);
+}
+
+/*
+.water {
+  display: none
+}
+
+span:hover + .water {
+  display: block;
+}
+
+
+.good {
+  color: rgb(104, 215, 139);
+  font-size: xx-large;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.resolve {
+  color: rgb(244, 198, 233);
+  font-size: 5vw;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align:center;
+  text-transform: lowercase;
+}
+
+.resolve:hover {
+  transition:ease-in-out ;
+  transition-duration: 1s;
+  color:rgb(178, 194, 247);
+  text-shadow:1px 1px 10px rgb(255, 255, 255), 1px 1px 10px rgb(255, 255, 255);
+}
+*/
