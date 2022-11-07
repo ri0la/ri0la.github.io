@@ -41,3 +41,8 @@ label {
   background-color: rgba(0, 0, 255, 0.315);
   width: 46vw;
 }
+
+video {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
