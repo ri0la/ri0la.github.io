@@ -1,4 +1,96 @@
-.p {
-color:blue ;
+.riola {
+  font-size: 150px;
+  color:rgb(213, 240, 185);
+  text-shadow:10px 10px 10px rgb(245, 204, 225), 5px 5px 10px rgb(249, 246, 196);
+  position:fixed;
+  left: 1100px;
+  bottom: -10px;
 }
 
+/*
+.riola:hover {
+  transition: 1s;
+  color:rgb(232, 253, 241);
+  text-shadow:1px 1px 10px rgb(255, 241, 248), 1px 1px 10px rgb(255, 231, 250);
+  font-size: 150px;
+}
+*/
+
+
+#bodie {
+  background-color: rgb(255, 236, 236);
+}
+
+.week2 {
+  color: rgb(170, 166, 43);
+  font-size: xx-large;
+  font-family:monospace;
+  
+}
+
+
+.week3 {
+  color: rgb(246, 170, 238);
+  font-size: xx-large;
+  font-family:monospace;
+}
+
+.week4 {
+  color: rgb(170, 166, 43);
+  font-size: xx-large;
+  font-family:monospace;
+}
+
+.week5 {
+  color: rgb(246, 170, 238);
+  font-size: xx-large;
+  font-family:monospace;
+}
+
+.week7 {
+  color: rgb(170, 166, 43);
+  font-size: xx-large;
+  font-family:monospace;
+}
+
+.week8 {
+  color: rgb(246, 170, 238);
+  font-size: xx-large;
+  font-family:monospace;
+}
+
+.week9 {
+  color: rgb(170, 166, 43);
+  font-size: xx-large;
+  font-family:monospace;
+}
+
+.week10 {
+  color: rgb(246, 170, 238);
+  font-size: xx-large;
+  font-family:monospace;
+}
+
+.week11 {
+  color: rgb(170, 166, 43);
+  font-size: xx-large;
+  font-family:monospace;
+}
+
+
+.so_random {
+  color: rgb(241, 158, 213);
+  font-size: xx-large;
+  font-family:monospace;
+  text-shadow:2px 2px 10px rgb(153, 234, 202), 3px 3px 10px rgb(220, 255, 228);
+  position:fixed;
+  bottom: 170px;
+}
+
+.bedroom {
+  position: fixed;
+  right:300px;
+  width:732px;
+  height:548px;
+  z-index:-1;
+}

@@ -46,3 +46,35 @@ video {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
+
+.fire {
+  color: blue;
+  font-size: xx-large;
+  font-family:cursive;
+}
+
+.fish {
+  padding: 15vw ;
+  color: rgb(245, 245, 255);
+  text-shadow: rgb(208, 13, 211) 5px 2px 7px;
+  font-size: 5vw;
+  font-family:cursive;
+  display: flex;
+  justify-content: center;
+
+}
+.fish:hover {
+  animation-name: rotate;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
