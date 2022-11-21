@@ -85,6 +85,7 @@
   text-shadow:2px 2px 10px rgb(153, 234, 202), 3px 3px 10px rgb(220, 255, 228);
   position:fixed;
   bottom: 170px;
+  z-index:1;
 }
 
 .bedroom {
