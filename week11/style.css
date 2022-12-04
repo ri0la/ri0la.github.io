@@ -1,0 +1,95 @@
+.row {
+  display: flex;
+  justify-content: center;
+  }
+  
+  .column {
+    flex:30%;
+    justify-content: flex-start;
+    padding: 10px
+  }
+
+  .column_2 {
+    flex:40%;
+    justify-content: flex-start;
+    padding: 10px
+  }
+
+#heart {
+  border-style:inset;
+  border-radius:5px;
+  background-color: rgb(245, 203, 247);
+  border-color: rgb(226, 182, 229);
+  }
+#heart_play {
+  background-color:plum;
+  border-radius: 10px;
+  border: 4px double rgb(214, 149, 214);
+  border-style:outset;
+  color:rgb(255, 255, 255);
+  object-position: left;
+}
+#heart_play:hover {
+  background-color:rgb(196, 131, 196);
+  border-radius: 10px;
+  border: 4px double rgb(182, 118, 182);
+  border-style:outset;
+  color:rgb(255, 255, 255);
+  transition: all 0.2s;
+  object-position: left;
+}
+#heart_pause {
+  background-color:rgb(197, 214, 149);
+  border-radius: 10px;
+  border: 4px double rgb(187, 203, 141);
+  border-style:outset;
+  color:rgb(255, 255, 255);
+  object-position: left;
+}
+#heart_pause:hover {
+  background-color:rgb(172, 188, 123);
+  border-radius: 10px;
+  border: 4px double rgb(156, 172, 109);
+  border-style:outset;
+  color:rgb(255, 255, 255);
+  transition: all 0.2s;
+  object-position: left;
+}
+
+.see {
+  font-size:medium;
+  font-family:Arial, Helvetica, sans-serif;
+  color: rgb(255, 166, 236);
+  text-shadow:1px 1px 10px rgb(111, 207, 193), 1px 1px 10px rgb(188, 255, 192);
+}
+
+.sense {
+  color:rgb(200, 212, 37);
+  text-shadow:1px 1px 10px rgb(236, 236, 111), 1px 1px 10px rgb(238, 248, 130);
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:xx-large;
+}
+
+.sense:hover {
+  color:rgb(251, 255, 189);
+  text-shadow:1px 1px 10px rgb(251, 251, 5), 1px 1px 10px rgb(234, 255, 0);
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:xx-large;
+}
+
+.sensibility {
+  color: blue;
+  font-size:medium;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.sensibility:hover {
+  color: blue;
+  font-size:medium;
+  font-family:'Times New Roman', Times, serif;
+  text-shadow:2px 1px 3px rgb(0, 17, 254) ;
+}
+
+.medium {
+font-size:larger;
+}
