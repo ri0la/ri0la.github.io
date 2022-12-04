@@ -1,3 +1,7 @@
+.bodyyy {
+  background-image:"face.JPG";
+  background-color: rgb(216, 244, 244);
+}
 .row {
   display: flex;
   justify-content: center;
