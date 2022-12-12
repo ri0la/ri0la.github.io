@@ -32,8 +32,9 @@ function audioPlayer(){
       currentSong = $(this).parent().index();
       $(this).parent.addClass("current-song");
   });
+ 
 /* https://youtu.be/vtZCMTtP-0Y */
-  $("#audioPlayer")[0].addEventListener("ended",function(){
+ /* $("#audioPlayer")[0].addEventListener("ended",function(){
     currentSong++;
       if(currentSong == $("#playlist li a").length)
         currentSong = 0;
@@ -42,7 +43,7 @@ function audioPlayer(){
       $("#audioPlayer")[0].src = $("#playlist li a")[currentSong].href;
       $("audioPlayer")[0].play();
   });
-}
+} */
 
 
 
