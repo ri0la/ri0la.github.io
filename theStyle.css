@@ -77,7 +77,15 @@
   font-family:monospace;
 }
 
-
+.finalproject {
+  color: rgb(241, 158, 213);
+  font-size: xx-large;
+  font-family:monospace;
+  text-shadow:2px 2px 10px rgb(153, 234, 202), 3px 3px 10px rgb(220, 255, 228);
+  position:fixed;
+  bottom: 250px;
+  z-index:1;
+}
 .so_random {
   color: rgb(241, 158, 213);
   font-size: xx-large;
@@ -95,3 +103,4 @@
   height:548px;
   z-index:-1;
 }
+

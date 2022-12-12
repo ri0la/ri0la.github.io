@@ -1,0 +1,73 @@
+
+ video {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  width: 300px;
+  height: 300px; 
+  background-color: rgb(220, 232, 241);
+  align-self: flex-start;
+  border-style:groove;
+  border-color: rgb(211, 228, 243);
+  border-radius:130px;
+  background-size:300px;
+  padding-left:30px;
+  padding-right:30px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+#chatterbox {
+  background-color:rgb(170, 220, 238);
+  border-radius: 10px;
+  border: 4px double rgb(237, 206, 237);
+  border-style:groove;
+  color:rgb(255, 255, 255);
+  transition: all 0.2s;
+  object-position: left;
+}
+
+#output1 {
+background-color: rgb(238, 170, 232);
+width: 360px;
+border-style: groove;
+border-radius:5px;
+border-color: rgb(220, 143, 220);
+}
+
+#submitbtn {
+  background-color:plum;
+  border-radius: 10px;
+  border: 4px double rgb(214, 149, 214);
+  border-style:outset;
+  color:rgb(255, 255, 255);
+  object-position: left;
+}
+
+#submitbtn:hover {
+  background-color:rgb(183, 119, 183);
+  border-radius: 10px;
+  border: 4px double rgb(165, 105, 165);
+  border-style:inset;
+  color:rgb(255, 255, 255);
+  transition: all 0.2s;
+  object-position: left;
+}
+
+
+.row {
+  display: flex;
+  justify-content: center;
+  }
+  
+  .column {
+    flex:30%;
+    justify-content: flex-start;
+    padding: 10px
+  }
+
+  .column_2 {
+    flex:40%;
+    justify-content: flex-start;
+    padding: 10px
+  }
+
