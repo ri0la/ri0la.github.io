@@ -60,14 +60,66 @@ border-color: rgb(220, 143, 220);
   }
   
   .column {
-    flex:30%;
+    flex:20%;
     justify-content: flex-start;
     padding: 10px
   }
 
   .column_2 {
-    flex:40%;
+    flex:47%;
     justify-content: flex-start;
     padding: 10px
   }
 
+  .column_3 {
+    /*flex:60%; */
+    /*justify-content: flex-start; */
+   /* padding: 1px */
+  }
+
+.palisades {
+color: blue;
+font-size: xx-large;
+font-family:'Times New Roman', Times, serif
+}
+
+.palisades:hover {
+  font-size:xx-large;
+  color:  rgb(49, 12, 63);
+  text-shadow:1px 1px 10px rgb(240, 253, 251), 1px 1px 10px rgb(230, 252, 231);
+}
+
+.nj {
+color: blue;
+font-size: xx-large;
+font-family:'Times New Roman', Times, serif;
+}
+
+.nj:hover {
+  plaza:hover 
+  color: rgb(252, 255, 166);
+  text-shadow:1px 1px 10px rgb(207, 216, 32), 1px 1px 10px rgba(216, 255, 21, 0.788);
+}
+
+.heaven {
+  color: blue;
+  font-size: xx-large;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.heaven:hover {
+  color:rgb(232, 242, 243);
+  text-shadow:1px 1px 10px rgb(243, 220, 232), 1px 1px 10px rgb(244, 244, 216);
+}
+
+.bro {
+  color: blue;
+  font-size: 10vw;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.bro:hover {
+  color: rgb(255, 0, 0);
+  font-size: 10vw;
+  font-family:Arial, Helvetica, sans-serif;
+}

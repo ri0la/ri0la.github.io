@@ -19,6 +19,9 @@ const out1 = document.getElementById('output1');
   }
   submitbtn.addEventListener('click',orbit);
 /*
+i tried to get the date and time show in the output when the submit button was pressed but i couldn't get it to work
+https://www.howtocodeschool.com/2020/05/display-current-date-and-time-using-html-javascript.html
+
 let current = new Date();
 let dt = new Date();
 dt.toLocaleTimeString();
