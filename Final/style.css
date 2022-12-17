@@ -87,13 +87,13 @@ border-color: rgb(220, 143, 220);
     /*justify-content: flex-start; */
    /* padding: 1px */
   }
-/*
+
   .column_4 {
-    flex:5%; 
+    flex:35%; 
     justify-content: flex-start; 
     padding: 1px 
   }
-  */
+  
 
 .palisades {
 color: blue;
@@ -288,3 +288,39 @@ font-family:'Times New Roman', Times, serif;
   border-color: rgb(214, 206, 214); ;
  
 }
+
+.music {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  color: lightsalmon;
+  -webkit-text-stroke:2px ;
+  -webkit-text-stroke-color:lightsalmon;
+}
+
+.songs {
+  font-family:cursive;
+  font-size: x-large;
+  color: rgb(0, 8, 240);
+  -webkit-text-stroke:2px ;
+  -webkit-text-stroke-color:rgb(41, 0, 154);
+}
+.musicbox {
+background-color: rgb(234, 153, 217);
+border-width:3px ;
+border-style:ridge;
+border-color: rgb(255, 176, 235);
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: rgb(234, 153, 217);
+  border-width:10px ;
+  border-style: dotted; */
+}
+audio::-webkit-media-controls-play-button {
+  background-color: rgb(184, 230, 227);
+  border-radius: 30%; 
+}
+audio::-webkit-media-controls-play-button:hover {
+  background-color: rgb(165, 252, 206);
+}
+
